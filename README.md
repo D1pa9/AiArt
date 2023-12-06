@@ -1,2 +1,2 @@
 # AiArt
-Ai art gallery generator 
+Ai art gallery generator project
