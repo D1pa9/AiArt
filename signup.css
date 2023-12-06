@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  text-align: center;
+  margin: 0;
+}
+
+nav a {
+  color: #87ceeb;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+nav a:hover {
+  color: #87ceeb;
+  text-decoration: underline;
+}
+
+#name {
+  color: #87ceeb;
+  float: left;
+  margin-left: 2.5rem;
+  font-weight: bold;
+}
+img{
+    width: 100vw;
+    height: 10em;
+    opacity: 0.1;
+}
+/* Additional Styles for Sign Up Page */
+.signup-container {
+  max-width: 400px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 4.5em;
+}
+
+.signup-container h2 {
+  text-align: center;
+  color:black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: black;
+}
+
+input {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4949E7;
+  color: white;
+  padding: 0.7em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d1de2;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 0.01em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
